@@ -26,6 +26,7 @@ def get_weather():
 
 def get_count():
   delta = today - datetime.strptime(start_date, "%Y-%m-%d")
+  print(delta)
   return delta.days
 
 def get_birthday():
